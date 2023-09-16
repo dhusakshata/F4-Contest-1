@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: 20%;
+  left: 500px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Montserrat;
+  box-shadow: -30px 20px 100px 10px #FB184E78;
+  background-color: #FFFFFF;
+
+
+}
+
+h1 {
+font-size: 35px;
+margin-bottom: 20px;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+
+  
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-bottom: 20px;
+  
+  font-family: Montserrat;
+  
+
+}
+
+input {
+  padding: 5px;
+  width: 250px;
+  height: 40px;
+  border: 2px solid #2B2B2B;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  
+}
+::placeholder {
+  color: black;
+  font-size: 15px;
+  opacity: 1;
+ 
+
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+
+
+}
+
+.oper-buttons{
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  top: 492px;
+  left: 553px;
+  background-color: rgb(34, 32, 32);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color:#0057FF;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.Result-field{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
